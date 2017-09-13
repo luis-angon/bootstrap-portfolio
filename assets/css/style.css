@@ -1,0 +1,114 @@
+/*body { padding-bottom: 70px; }
+#luis-a {
+	padding: 5px;
+}
+#mytext {
+	line-height: 1.8;
+	font-size: 18px;
+}
+@media screen and (min-width: 640px) {
+	body { padding-bottom: 70px; 
+		}
+	#myluis-a {
+		float: left;
+		width: 35%;
+	}
+	#mytext{
+		float: right;
+		width: 65%;
+	}
+}
+#mysidebar {
+	text-align: center;
+}
+.caption {
+        width: 100%;
+    	bottom: .3rem;
+   		position: absolute;
+    	background-color: #41AAA5;
+    	color: white;
+    }
+    .thumbnail {
+        border: 0 none;
+        box-shadow: none;
+        margin:0;
+        padding:0;
+    }
+    .caption h4 {
+        color: #fff;
+        -webkit-font-smoothing: antialiased;
+    }
+    .thumbnail {
+    	margin: 5px;
+    }
+    .marginbottom {
+    	margin-bottom: 10px;
+    }
+  	.h2text {
+  		text-align: left;
+  	}*/
+
+/*
+body { 
+	padding-top: 70px; 
+}
+.navbar {
+	height: 50px;
+	display: inline;
+	overflow: auto;
+}
+.container {
+	margin-right: 0;
+	margin-left: 0;
+}
+ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	top: 0;
+}
+li {
+	display: inline;
+    padding-right: 20px;
+    position: relative;
+    bottom: -10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+h1 {
+	margin: 0;
+    float: left;
+    background-color: #41AAA5;
+    width: 20%;
+    color: white;
+    text-align: center;
+    height: 50px;
+}*/
+
+body {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    background-image: url(../images/dark-triangles.png);
+    background-size: cover;
+}
+.row, .container, .fixed-bottom {
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+.social {
+    margin-left: 8%;
+}
+
+p {
+    letter-spacing: .05em;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1200px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .row, .container, .fixed-bottom {
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+}
